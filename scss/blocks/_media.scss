@@ -1,0 +1,65 @@
+@media (max-width: 880px) {
+
+.new_time {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}    
+
+.btn {
+    padding: 8px 30px;
+}
+
+.battle__img {
+
+    img {
+        max-height: 200px;
+    }
+}
+
+
+}
+
+@media (max-width: 600px) {
+
+.header {
+    flex-direction: column;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.content_wrap {
+    height: 320px;
+}
+
+.btn {
+    padding: 4px 15px;
+    font-size: 1rem;
+}
+    
+.part__title {
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.battle__img {
+
+    img {
+        max-height: 140px;
+    }
+}
+
+.heroes {
+    font-size: 1.3rem;
+}
+
+}
+

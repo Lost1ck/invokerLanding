@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #737373;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.header_wrap {
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 120px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  margin-left: 94px;
+}
+.menu li a {
+  color: #252B42;
+  text-decoration: none;
+}
+.menu li a:hover {
+  color: #FA4A0C;
+}
+
+.content_wrap {
+  max-width: 100%;
+  height: 520px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background: #CCC url(../../logo/back__screen.jpeg) center center no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  text-align: center;
+}
+
+.heroes {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.new_time {
+  font-size: 4rem;
+}
+
+.btn {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  padding: 16px 60px;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.btn--red {
+  border-color: #fa4a0c;
+  background: #fa4a0c;
+}
+
+.battle__wrap {
+  padding: 15px 5px;
+  max-width: 1130px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.battle__block {
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 10px 0 10px;
+}
+
+.part__title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.invoker {
+  margin: 10px;
+}
+
+.play {
+  border: 1px solid rgb(151, 96, 96);
+  padding: 5px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(209, 67, 24);
+}
+
+.battle__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.battle__items:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.battle__img img {
+  max-height: 300px;
+}
+
+.footer__wrap {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.footer__block {
+  margin: 0 10px 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__img {
+  width: 120px;
+}
+
+@media (max-width: 880px) {
+  .new_time {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  .btn {
+    padding: 8px 30px;
+  }
+  .battle__img img {
+    max-height: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+  .menu li {
+    margin: 0 20px;
+  }
+  .content_wrap {
+    height: 320px;
+  }
+  .btn {
+    padding: 4px 15px;
+    font-size: 1rem;
+  }
+  .part__title {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .battle__img img {
+    max-height: 140px;
+  }
+  .heroes {
+    font-size: 1.3rem;
+  }
+}/*# sourceMappingURL=style.css.map */

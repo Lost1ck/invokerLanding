@@ -1,0 +1,44 @@
+
+.battle__wrap {
+    padding: 15px 5px;
+    max-width: 1130px;
+    margin: 0 auto;
+    text-align: center;
+}
+.battle__block {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+.part__title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.invoker {
+    margin: 10px;
+}
+.play {
+    border: 1px solid rgb(151, 96, 96);
+    padding: 5px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(209, 67, 24);
+}
+
+.battle__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+}
+.battle__img {
+
+    img {
+        max-height: 300px;
+    }
+}
